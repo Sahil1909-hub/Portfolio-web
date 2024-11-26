@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size:larger;
+}
+
+.portfoliologo {
+    background-image: url(coder.png);
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 30px;
+    /* box-shadow: 4px 4px 8px 4px rgba(1, 252, 218, 0.2),
+          10px 20px 20px 10px rgba(0, 255, 234, 0.19); */
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.name {
+    font-size: xx-large;
+    text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.4);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.work {
+    font-size: xx-large;
+    color: aqua;
+    text-shadow: 3px 3px 5px rgba(11, 106, 109, 0.5);
+}
+
+.bio {
+    font-size: medium;
+    margin-top: 10px;
+}
+
+#downloadcv {
+    color: black;
+    background-color: aqua;
+    height: 40px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 2px 2px 4px 2px rgba(1, 252, 218, 0.2),
+          5px 10px 10px 5px rgba(0, 255, 234, 0.19);
+    border: 1px solid black;
+}
+
+li {
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2),
+          5px 10px 10px 5px rgba(0, 0, 0, 0.19);
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+ .skills-contanier {
+    display: flex;
+    justify-content:space-around;
+} 
+
+.skills-contanier2 {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.project1 {
+    height: 450px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2),
+          5px 10px 10px 5px rgba(0, 0, 0, 0.19);
+}
+
+.img1 {
+    height: 100px;
+    width: 90px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(12, 176, 226);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+.project2 {
+    height: 450px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2),
+          5px 10px 10px 5px rgba(0, 0, 0, 0.19);
+}
+
+.img2 {
+    height: 100px;
+    width: 90px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2),
+          5px 10px 10px 5px rgba(0, 0, 0, 0.19);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 150px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit {
+    cursor: pointer;
+    margin-left: 200px;
+}
